@@ -9,11 +9,18 @@ def main():
 
     time = input ("what time is it: ").lower().strip()
     time = time.split(":")
-    print(time)
+    convert(time)
 
 
 def convert(time):
-    time=time+1
+    time1 = float(time[0])
+    time2 = float(time[-1])
+
+    time2 = time2/60
+    time1 = time1+time2
+
+    print(time1)
+    print(time2)
 
 
 if __name__ == "__main__":
