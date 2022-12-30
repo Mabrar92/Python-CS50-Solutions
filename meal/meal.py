@@ -10,7 +10,7 @@ def main():
     time = input ("what time is it: ").lower().strip()
 
 
-    hours ,minutes = convert(time)
+    hours , minutes = convert(time)
 
     if 7 <= hours <= 8 :
         print ("Breakfast Time")
@@ -25,14 +25,14 @@ def main():
 def convert(time):
     time = time.split(":")
     hours = float(time[0])
-    print(hours)
+    #print(hours)
 
     minutes = float(time[-1])
-    print (minutes)
+   # print (minutes)
 
     fhours = round(hours + minutes/60,2)
 
-    print(fhours)
+   # print(fhours)
     return fhours,minutes
 
 
