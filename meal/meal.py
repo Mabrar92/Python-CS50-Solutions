@@ -7,7 +7,7 @@ dinner ---   18:00 and 19:00
 
 def main():
 
-
+time = input ("what time is it: ").lower().
 
 
 def convert(time):
