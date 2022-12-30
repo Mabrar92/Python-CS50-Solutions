@@ -16,11 +16,10 @@ def convert(time):
     time1 = float(time[0])
     time2 = float(time[-1])
 
-    time2 = time2/60
-    time1 = time1+time2
+    hours = time1 + time2/2
 
-    print(time1)
-    print(time2)
+    print(hours)
+
 
 
 if __name__ == "__main__":
