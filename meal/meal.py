@@ -9,7 +9,7 @@ def main():
 
     time = input ("what time is it: ").lower().strip()
     time = time.split(":")
-    hours = convert(time)
+    hours ,minutes = convert(time)
 
     if 7 <= hours <= 8 :
         print ("Breakfast Time")
