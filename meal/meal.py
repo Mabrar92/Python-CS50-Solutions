@@ -8,7 +8,8 @@ dinner ---   18:00 and 19:00
 def main():
 
     time = input ("what time is it: ").lower().strip()
-    time = time.split(":")
+
+
     hours ,minutes = convert(time)
 
     if 7 <= hours <= 8 :
@@ -22,13 +23,17 @@ def main():
 
 
 def convert(time):
+    time = time.split(":")
     hours = float(time[0])
-    minutes = float(time[-1])
-
-    hours = round(hours + minutes/60,2)
-
     print(hours)
-    return hours,minutes
+
+    minutes = float(time[-1])
+    print (minutes)
+
+    fhours = round(hours + minutes/60,2)
+
+    print(fhours)
+    return fhours,minutes
 
 
 if __name__ == "__main__":
