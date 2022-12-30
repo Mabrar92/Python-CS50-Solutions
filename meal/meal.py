@@ -25,8 +25,7 @@ def main():
 def convert(time):
     hours = float(time[0])
     minutes = float(time[-1])
-
-
+    print (hours,minutes)
     return hours,minutes
 
 
