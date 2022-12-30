@@ -16,7 +16,7 @@ def convert(time):
     time1 = float(time[0])
     time2 = float(time[-1])
 
-    hours = time1 + time2/2
+    hours = time1 + time2/60
 
     print(hours)
 
