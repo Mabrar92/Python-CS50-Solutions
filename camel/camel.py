@@ -16,6 +16,7 @@ def snakeconverter(name):
     for capital in name:
         if capital.isupper():
             snake =  name.replace(capital , "_" + capital.lower())
+            print(snake)
             flag = True
         else:
             continue
