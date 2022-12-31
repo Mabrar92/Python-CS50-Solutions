@@ -2,9 +2,12 @@
 
 name = input("camelCase:").strip()
 
+
 for capital in name:
     if capital.isupper():
         print(capital)
-        name.partition(capital)
+        name= name.partition(capital)
+
+
 
 print(name)
