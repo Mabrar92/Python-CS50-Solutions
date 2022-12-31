@@ -3,8 +3,8 @@
 def main():
 
     name = input("camelCase:").strip()
-    snakeconverter(name)
-
+    snake_name = snakeconverter(name)
+    print ("snake_case:",snake_name)
 
 
 
@@ -14,10 +14,15 @@ def snakeconverter(name):
     for capital in name:
         if capital.isupper():
             namepartition = name.partition(capital)
-            
-        else
+            flag = True
+        else:
             namepartition = name
+            flag = False
 
+    if flag:
+        snake = namepartition[1]+ "_" + namepartition[2].lower()+ namepartition[3]
+        return snake
+    else:
+        return name
 
-    snake = namepartition[1]+ "_" + namepartition[2].lower()+ namepartition[3]
-
+main()
