@@ -15,6 +15,7 @@ def snakeconverter(name):
         if capital.isupper():
             namepartition = name.partition(capital)
             flag = True
+            break
         else:
             namepartition = name
             flag = False
