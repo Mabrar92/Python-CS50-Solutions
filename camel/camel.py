@@ -1,5 +1,7 @@
 # A program that converts Camel Case names into Snake case
 
+
+
 def main():
 
     name = input("camelCase:").strip()
@@ -10,11 +12,11 @@ def main():
 
 
 def snakeconverter(name):
-
+    snake = name
     flag = False
 
     for capital in name:
-
+        name = snake
         if capital.isupper():
             snake =  name.replace(capital , "_" + capital.lower(),2)
             print(snake)
