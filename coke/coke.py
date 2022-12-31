@@ -2,7 +2,7 @@
 
 due = 50
 
-while due >= 0:
+while due > 0:
     coin = int(input("insert coin: "))
 
     if coin == 5 or coin == 10 or coin == 25 :
