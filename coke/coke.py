@@ -11,3 +11,4 @@ while due > 0:
     else:
         print ("Amount Due:", due)
 
+print ("Change owed:", -1*due)
