@@ -3,4 +3,6 @@
 due = 50
 
 while due > 0:
-    coin = int(input("insert coin: ))
+    coin = int(input("insert coin: "))
+
+    if coin
