@@ -1,0 +1,1 @@
+# A Coke Machine accepts only 5, 10, 25 cents.
