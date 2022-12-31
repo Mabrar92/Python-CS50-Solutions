@@ -5,6 +5,7 @@ name = input("camelCase:").strip()
 
 for capital in name:
     if capital.isupper():
+        name=name.lower()
         print(capital)
         name= name.partition(capital)
 
