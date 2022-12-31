@@ -8,6 +8,6 @@ while due > 0:
     if coin == 5 or coin == 10 or coin == 25 :
         due = due - coin
         print ("Amount Due:", due)
-    else
+    else:
         print ("Amount Due:", due)
 
