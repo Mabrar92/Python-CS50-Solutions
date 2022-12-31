@@ -4,4 +4,5 @@ name = input("camelCase:").strip()
 
 for capital in name:
     if capital.isupper():
-        
+        index=name[capital]
+        print(index)
