@@ -12,11 +12,11 @@ def main():
 def snakeconverter(name):
 
     flag = False
-    snake
+
     for capital in name:
-        snakeprev=snake
+
         if capital.isupper():
-            snake =  name.replace(capital , "_" + capital.lower())
+            snake =  name.replace(capital , "_" + capital.lower(),2)
             print(snake)
             flag = True
         else:
