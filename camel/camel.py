@@ -14,10 +14,8 @@ def snakeconverter(name):
     for capital in name:
         if capital.isupper():
             namepartition = name.partition(capital)
-            flag = True
-        else:
-            namepartition = name
-            flag = False
+            break
+
 
     if flag:
         snake = namepartition[1]+ "_" + namepartition[2].lower()+ namepartition[3]
