@@ -5,4 +5,9 @@ due = 50
 while due > 0:
     coin = int(input("insert coin: "))
 
-    if coin
+    if coin == 5 or coin == 10 or coin == 25 :
+        due = due - coin
+        print ("Amount Due:", due)
+    else
+        print ("Amount Due:", due)
+
