@@ -21,7 +21,7 @@ def snakeconverter(name):
             flag = False
 
     if flag:
-        snake = namepartition[1] + "_" + namepartition[2].lower() + namepartition[3]
+        snake = namepartition[0] + "_" + namepartition[1].lower() + namepartition[2]
         return snake
     else:
         return name
