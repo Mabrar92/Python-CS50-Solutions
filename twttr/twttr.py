@@ -1,7 +1,7 @@
 
 userinput = input("Input: ").strip()
 
-a= ["a","A",]
+a= ["a","A","e","E","]
 
 for chr in userinput :
     if chr == "a" or chr == "i" or chr ==  "o" or chr == "u" or chr=="e":
