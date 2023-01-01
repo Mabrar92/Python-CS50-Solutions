@@ -23,6 +23,7 @@ def main():
 def is_valid(s):
 
     check1 = False
+    check2 = None
     letters_2 = s[0:2]
     letters_f = s[2:-1]
 
@@ -35,10 +36,7 @@ def is_valid(s):
     else:
              check1 = False
 
-    print (check1)
-
-
-    # Checking if Any Number comes in the middle
+# Checking if Any Number comes in the middle
     numeric = False
 
     for letter in letters_f :
@@ -48,9 +46,9 @@ def is_valid(s):
             numeric=True
             continue
         else:
+            print("first Else")
             if numeric :
                 print("numeric == True")
-                #return
                 check2 = False
             else:
                 print("else in else")
