@@ -33,7 +33,7 @@ def is_valid(s):
                 print("CHECK 1: TRUE")
     else:
              check1 = False
-             
+
     print (check1)
 
 
@@ -54,6 +54,7 @@ def is_valid(s):
                 else:
                     print("else in else")
                     continue
+        
 
 
 
