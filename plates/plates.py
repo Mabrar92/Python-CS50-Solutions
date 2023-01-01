@@ -22,6 +22,7 @@ def main():
 
 def is_valid(s):
 
+    check1 = False
     letters_2 = s[0:2]
     letters_f = s[3:-1]
 
