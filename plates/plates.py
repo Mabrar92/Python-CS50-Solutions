@@ -42,16 +42,18 @@ def is_valid(s):
     # Checking if Any Number comes in the middle
     numeric = False
 
-    for letter in letters_ :
+    for letter in letters_f :
         print(letter)
 
         if letter.isdigit():
             numeric=True
             continue
         else:
+
                 if numeric :
                     print("numeric == True")
-                    return False
+                    #return
+                    check2 = False
                 else:
                     continue
 
