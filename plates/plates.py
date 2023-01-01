@@ -41,6 +41,7 @@ def is_valid(s):
 
     for letter in letters_f:
         if letter.isalpha():
+            
             continue
         elif letter.isnumeric():
             if numeric == 1 and letter == "0" :
@@ -48,7 +49,8 @@ def is_valid(s):
 
             else:
                 numeric+=1
-                
+
+
 
 
 
