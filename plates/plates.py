@@ -26,6 +26,7 @@ def is_valid(s):
     check2 = None
     letters_2 = s[0:2]
     letters_f = s[2:]
+    numeric = 1
 
 # Check for length 2 , any charachters 4 , first two charachters 1 .
     if 7 > len(s) > 1:
@@ -40,7 +41,16 @@ def is_valid(s):
 
     for letter in letters_f:
         if letter.isalpha():
-            
+            continue
+        elif letter.isnumeric():
+            if(numeric ==1 and letter =="0")
+                return False
+                numeric+=1
+            else
+                
+
+
+
 
 """
     if check1 and check2:
