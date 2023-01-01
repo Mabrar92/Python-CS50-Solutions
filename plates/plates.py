@@ -19,8 +19,10 @@ def main():
 
 
 def is_valid(s):
-    
+
+    letters = s.slice(0:2)
     if 7 > len(s) > 1:
+        if s
         for chr in s:
 
 
