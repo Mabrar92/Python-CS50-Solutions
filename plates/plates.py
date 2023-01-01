@@ -24,7 +24,8 @@ def is_valid(s):
 
     if 7 > len(s) > 1:
         if s.isascii():
-            if s.isalpha():
+            if letters.isalpha():
+                if s[3:-1]
                 return True
 
 
