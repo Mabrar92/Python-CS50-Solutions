@@ -28,7 +28,7 @@ def is_valid(s):
 
     letters_f = s[2:-1]
 
-# Check for length , any charachters , first two charachters.
+# Check for length 2 , any charachters 4 , first two charachters 1 .
     if 7 > len(s) > 1:
         if s.isascii():
             if letters_2.isalpha():
@@ -38,25 +38,9 @@ def is_valid(s):
              check1 = False
 
 # Checking if Any Number comes in the middle
-    numeric = False
 
-    for letter in letters_f :
-        print("letter :",letter)
 
-        if letter.isnumeric():
-            numeric=True
-            print("if letter.isdigit")
-            continue
-        
-        else:
-            print("first Else")
 
-            if numeric :
-                print("numeric == True")
-                check2 = False
-            else:
-                print("else in else")
-                check2 = True
 
     if check1 and check2:
         return True
