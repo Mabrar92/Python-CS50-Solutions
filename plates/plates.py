@@ -25,11 +25,13 @@ def is_valid(s):
     if 7 > len(s) > 1:
         if s.isascii():
             if letters.isalpha():
-                if s[3:-1]
-                return True
-
-
+                s=True
     else:
-        return False
+        s = False
+
+    for letter in s[3:-1] :
+        
+
+
 
 main()
