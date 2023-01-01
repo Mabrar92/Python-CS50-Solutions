@@ -25,7 +25,6 @@ def is_valid(s):
     letters_2 = s[0:2]
     letters_f = s[3:-1]
 
-
 # Check for length , any charachters , first two charachters.
     if 7 > len(s) > 1:
         if s.isascii():
@@ -34,8 +33,7 @@ def is_valid(s):
                 print("CHECK 1: TRUE")
     else:
              check1 = False
-
-
+             
     print (check1)
 
 
@@ -49,12 +47,12 @@ def is_valid(s):
             numeric=True
             continue
         else:
-
                 if numeric :
                     print("numeric == True")
                     #return
                     check2 = False
                 else:
+                    print("else in else")
                     continue
 
 
