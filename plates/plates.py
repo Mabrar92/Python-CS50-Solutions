@@ -34,8 +34,8 @@ def is_valid(s):
 
     for letter in letters_ :
         prevletter = letter
-        if letter.isalpha()
-            if s.
+        if letter.isnumeric()
+           
 
 
 
