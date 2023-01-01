@@ -42,15 +42,16 @@ def is_valid(s):
 
     for letter in letters_ :
         print(letter)
+
         if letter.isdigit():
             numeric=True
             continue
         else:
-            if numeric :
-                print("numeric == True")
-                return False
-            else:
-                continue
+                if numeric :
+                    print("numeric == True")
+                    return False
+                else:
+                    continue
 
 
 
