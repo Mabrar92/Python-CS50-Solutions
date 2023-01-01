@@ -29,13 +29,21 @@ def is_valid(s):
             if letters_2.isalpha():
                 s=True
     else:
-        s = False
+             return False
 
+    numeric = False
 
+    # Checking if Any Number comes in the middle
     for letter in letters_ :
         prevletter = letter
-        if letter.isnumeric()
-           
+        if letter.isnumeric():
+            numeric=True
+            continue
+        else:
+            if numeric == True:
+               return false
+            else:
+                continue
 
 
 
