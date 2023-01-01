@@ -43,13 +43,13 @@ def is_valid(s):
     for letter in letters_f :
         print("letter :",letter)
 
-        if letter.isdigit():
+        if letter.isnumeric():
             numeric=True
             print("if letter.isdigit")
             continue
         else:
             print("first Else")
-            
+
             if numeric :
                 print("numeric == True")
                 check2 = False
