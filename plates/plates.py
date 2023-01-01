@@ -30,7 +30,7 @@ def is_valid(s):
         s = False
 
     for letter in s[3:-1] :
-        
+        if "0" in s :
 
 
 
