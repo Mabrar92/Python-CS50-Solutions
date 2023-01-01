@@ -13,7 +13,7 @@ For example, AAA222 would be an acceptable
 
 def main():
     plate = input("Plate: ")
-    
+
     if is_valid(plate):
         print("Valid")
     else:
@@ -25,20 +25,23 @@ def is_valid(s):
     letters_2 = s[0:2]
     letters_ = s[3:-1]
 
+
+# Check for length , any charachters , first two charachters.
     if 7 > len(s) > 1:
         if s.isascii():
             if letters_2.isalpha():
-                s=True
+                check1 = True
                 print("CHECK 1: TRUE")
     else:
-             s= False
+             check1 = False
 
 
-
+    print (check1)
     numeric = False
     # Checking if Any Number comes in the middle
 
     for letter in letters_ :
+        print(letter)
         if letter.isdigit():
             numeric=True
             continue
