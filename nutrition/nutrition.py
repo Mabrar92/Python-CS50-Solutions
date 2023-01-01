@@ -30,5 +30,5 @@ for item in food:
         print("Calories:",food[item])
         break
     else:
-        break
+        continue
 
