@@ -25,7 +25,8 @@ def is_valid(s):
     check1 = False
     check2 = None
     letters_2 = s[0:2]
-    letters_f = s[2:-2]
+
+    letters_f = s[2:-1]
 
 # Check for length , any charachters , first two charachters.
     if 7 > len(s) > 1:
@@ -44,6 +45,7 @@ def is_valid(s):
 
         if letter.isdigit():
             numeric=True
+            print("if letter.isdigit")
             continue
         else:
             print("first Else")
