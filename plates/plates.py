@@ -37,7 +37,7 @@ def is_valid(s):
     else:
              check1 = False
 
-# Checking if Any Number comes in the middle
+# Checking if Any Number comes in the middle or Zero comes first in numerics
 
     for letter in letters_f:
         if letter.isalpha():
