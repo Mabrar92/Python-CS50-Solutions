@@ -23,7 +23,7 @@ def main():
 def is_valid(s):
 
     letters_2 = s[0:2]
-    letters_ = s[3:-1]
+    letters_f = s[3:-1]
 
 
 # Check for length , any charachters , first two charachters.
@@ -37,8 +37,10 @@ def is_valid(s):
 
 
     print (check1)
-    numeric = False
+
+
     # Checking if Any Number comes in the middle
+    numeric = False
 
     for letter in letters_ :
         print(letter)
