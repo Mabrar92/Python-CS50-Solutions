@@ -37,7 +37,7 @@ def is_valid(s):
     numeric = False
     # Checking if Any Number comes in the middle
     for letter in letters_ :
-        prevletter = letter
+        
         if letter.isdigit():
             numeric=True
             continue
