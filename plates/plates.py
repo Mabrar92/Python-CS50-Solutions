@@ -48,6 +48,7 @@ def is_valid(s):
 
             else:
                 numeric+=1
+                
 
 
 
