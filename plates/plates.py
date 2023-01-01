@@ -54,9 +54,12 @@ def is_valid(s):
                 check2 = False
             else:
                 print("else in else")
-                continue
+                check2 = True
 
-
+    if check1 and check2:
+        return True
+    else :
+        return False
 
 
 main()
