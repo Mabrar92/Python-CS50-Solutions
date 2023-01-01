@@ -43,7 +43,8 @@ def is_valid(s):
             continue
         else:
             if numeric :
-               return False
+                print("numeric == True")
+                return False
             else:
                 continue
 
