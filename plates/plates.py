@@ -20,7 +20,7 @@ def main():
 
 def is_valid(s):
 
-    letters = s.slice[0:2]
+    letters = s[0:2]
 
     if 7 > len(s) > 1:
         if s.isascii():
