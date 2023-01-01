@@ -40,7 +40,7 @@ def is_valid(s):
 # Checking if Any Number comes in the middle
 
     for letter in letters_f
-        
+        if ()
 
 """
     if check1 and check2:
