@@ -47,6 +47,7 @@ def is_valid(s):
             numeric=True
             print("if letter.isdigit")
             continue
+        
         else:
             print("first Else")
 
