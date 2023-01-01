@@ -37,13 +37,13 @@ def is_valid(s):
     numeric = False
     # Checking if Any Number comes in the middle
     for letter in letters_ :
-        
+
         if letter.isdigit():
             numeric=True
             continue
         else:
-            if numeric == True:
-               return false
+            if numeric :
+               return False
             else:
                 continue
 
