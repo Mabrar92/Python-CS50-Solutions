@@ -28,6 +28,7 @@ def is_valid(s):
         if s.isascii():
             if letters_2.isalpha():
                 s=True
+                print("CHECK 1: TRUE")
     else:
              s= False
 
