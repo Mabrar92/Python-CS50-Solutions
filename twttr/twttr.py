@@ -1,12 +1,13 @@
 
 userinput = input("Input: ").strip()
 
-a= ["a","A","e","E","]
+a = ["a","A","e","E","i","I","o","O","u","U"]
 
 for chr in userinput :
-    if chr == "a" or chr == "i" or chr ==  "o" or chr == "u" or chr=="e":
-        userinput = userinput.replace(chr,"")
-    else :
-        continue
+    for vowel in range(len(a)):
+        if chr == vowel :
+            userinput = userinput.replace(chr,"")
+        else :
+            continue
 
-print(userinput.title())
+print(userinput)
