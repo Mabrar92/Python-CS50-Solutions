@@ -27,6 +27,8 @@ user_input= input("Item: ").lower().strip()
 
 for item in food:
     if user_input == item.lower():
-        print("Calories:",food(item))
-    else
-        break;
+        print("Calories:",food[item])
+        break
+    else:
+        break
+
