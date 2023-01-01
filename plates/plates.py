@@ -49,6 +49,7 @@ def is_valid(s):
             continue
         else:
             print("first Else")
+            
             if numeric :
                 print("numeric == True")
                 check2 = False
