@@ -1,5 +1,5 @@
 
-userinput = input("Input: ").strip().lower()
+userinput = input("Input: ").strip()
 
 for chr in userinput :
     if chr == "a" or chr == "i" or chr ==  "o" or chr == "u" or chr=="e":
