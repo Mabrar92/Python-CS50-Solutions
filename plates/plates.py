@@ -37,6 +37,14 @@ def is_valid(s):
     else:
              check1 = False
 
+#check for . as ascii doesn't cover period .
+
+    for chrs in s:
+        if chrs == ".":
+            return False
+
+
+
 # Checking if Any Number comes in the middle or Zero comes first in numerics
 
     for letter in letters_f:
