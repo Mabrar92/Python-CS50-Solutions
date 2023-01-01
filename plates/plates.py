@@ -13,6 +13,7 @@ For example, AAA222 would be an acceptable
 
 def main():
     plate = input("Plate: ")
+    
     if is_valid(plate):
         print("Valid")
     else:
@@ -36,8 +37,8 @@ def is_valid(s):
 
     numeric = False
     # Checking if Any Number comes in the middle
-    for letter in letters_ :
 
+    for letter in letters_ :
         if letter.isdigit():
             numeric=True
             continue
