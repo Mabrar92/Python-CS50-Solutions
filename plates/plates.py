@@ -38,14 +38,13 @@ def is_valid(s):
              check1 = False
 
 # Checking if Any Number comes in the middle
+    print(letters_f)
 
-
-
-
+"""
     if check1 and check2:
         return True
     else :
         return False
-
+"""
 
 main()
