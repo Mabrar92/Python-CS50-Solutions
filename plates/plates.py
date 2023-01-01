@@ -23,11 +23,13 @@ def is_valid(s):
     letters = s.slice[0:2]
 
     if 7 > len(s) > 1:
-        if letters.isalpha():
-            for chr in s:
+        if s.isascii():
+            if letters.isalpha():
+                if
+                for chr in s:
 
 
-        else:
-
+    else:
+        return False
 
 main()
