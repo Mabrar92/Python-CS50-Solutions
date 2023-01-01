@@ -23,7 +23,7 @@ def main():
 def is_valid(s):
 
     check1 = False
-    check2 = None
+    check2 = True
     letters_2 = s[0:2]
     letters_f = s[2:]
     numeric = 1
@@ -33,7 +33,7 @@ def is_valid(s):
         if s.isascii():
             if letters_2.isalpha():
                 check1 = True
-                print("CHECK 1: TRUE")
+
     else:
              check1 = False
 
@@ -41,25 +41,22 @@ def is_valid(s):
 
     for letter in letters_f:
         if letter.isalpha():
-            
-            continue
+            if numeric > 1:
+                return False
+            else:
+                continue
         elif letter.isnumeric():
-            if numeric == 1 and letter == "0" :
+            if numeric == 1 and letter == "0":
                 return False
 
             else:
                 numeric+=1
 
 
-
-
-
-
-"""
     if check1 and check2:
         return True
     else :
         return False
-"""
+
 
 main()
