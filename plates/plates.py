@@ -45,9 +45,9 @@ def is_valid(s):
         elif letter.isnumeric():
             if(numeric == 1 and letter == "0")
                 return False
-                numeric+=1
+
             else
-                
+                numeric+=1
 
 
 
