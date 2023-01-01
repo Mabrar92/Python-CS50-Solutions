@@ -43,10 +43,10 @@ def is_valid(s):
         if letter.isalpha():
             continue
         elif letter.isnumeric():
-            if(numeric == 1 and letter == "0")
+            if numeric == 1 and letter == "0" :
                 return False
 
-            else
+            else:
                 numeric+=1
 
 
