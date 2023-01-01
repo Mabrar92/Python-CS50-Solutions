@@ -9,4 +9,4 @@ for chr in userinput :
     else :
         continue
 
-print(userinput)
+print(userinput.title())
