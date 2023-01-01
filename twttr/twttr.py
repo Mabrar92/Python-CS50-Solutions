@@ -2,4 +2,5 @@
 userinput = input("Input").strip().lower()
 
 for chr in userinput :
-    if chr 
+    if chr == "a" | "i" | "o" | "u" :
+        userinput = userinput.
