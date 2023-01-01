@@ -42,7 +42,7 @@ def is_valid(s):
     numeric = False
 
     for letter in letters_f :
-        print(letter)
+        print("letter :",letter)
 
         if letter.isdigit():
             numeric=True
