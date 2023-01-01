@@ -26,7 +26,7 @@ def is_valid(s):
     check2 = None
     letters_2 = s[0:2]
 
-    letters_f = s[2:-1]
+    letters_f = s[2:]
 
 # Check for length 2 , any charachters 4 , first two charachters 1 .
     if 7 > len(s) > 1:
@@ -38,7 +38,9 @@ def is_valid(s):
              check1 = False
 
 # Checking if Any Number comes in the middle
-    print(letters_f)
+
+    for letter in letters_f
+        
 
 """
     if check1 and check2:
