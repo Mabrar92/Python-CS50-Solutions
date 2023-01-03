@@ -12,15 +12,16 @@ food_items ={
     "Tortilla Salad": 8.00
 
 }
-
+a=0
 while True:
     try:
         user_items = input("Item: ").title()
         if user_items in food_items :
-            a = get()
+            a+= food_items[user_items]
 
     except EOFError:
         print("\n")
+        print(f"Total: {a}$")
     except KeyError:
         pass
 
