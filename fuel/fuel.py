@@ -16,7 +16,7 @@ def get_result():
             if num > denum :
                 pass
             elif num <= denum :
-                return round(num/denum*100)
+                    return round(num/denum*100)
 
         except (ValueError,ZeroDivisionError) :
             pass
