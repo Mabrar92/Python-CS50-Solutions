@@ -13,12 +13,10 @@ def get_result():
             num =  int(split_string[0])
             denum = int(split_string[1])
 
-            if num > denum :
-                pass
-            elif num <= denum :
+            if num <= denum :
                     return round(num/denum*100)
 
-        except (ValueError,ZeroDivisionError) :
+        except (ValueError, ZeroDivisionError) :
             pass
 
         else:
