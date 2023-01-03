@@ -22,9 +22,6 @@ def get_result():
         except (ValueError, ZeroDivisionError) :
             pass
 
-        else:
-            break
-
 
 
 main()
