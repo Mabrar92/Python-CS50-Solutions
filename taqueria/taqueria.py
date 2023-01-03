@@ -13,7 +13,7 @@ food_items ={
 
 }
 
-a=0
+a=0.0
 while True:
 
     try:
