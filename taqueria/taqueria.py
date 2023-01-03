@@ -21,8 +21,9 @@ while True:
         if user_items in food_items :
             a+= food_items.get(user_items)
 
-    except EOFError:
 
+    except EOFError:
+            print("\n")
             print(f"Total: ${a}")
 
             break
