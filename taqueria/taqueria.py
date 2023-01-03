@@ -17,7 +17,7 @@ while True:
     try:
         user_items = input("Item: ").title()
         if user_items in food_items :
-            a+= round(food_items[user_items],2)
+            a+= round(food_items[user_items],3)
 
     except EOFError:
         print("\n")
