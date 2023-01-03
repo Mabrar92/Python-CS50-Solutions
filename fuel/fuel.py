@@ -12,9 +12,12 @@ def get_result():
             split_string = x.split("/")
             num =  int(split_string[0])
             denum = int(split_string[1])
+            result = num/denum
 
-            if num <= denum :
-                    return round(num/denum*100)
+            if result > 1 :
+                    continue
+            elif:
+                return round(num/denum*100)
 
         except (ValueError, ZeroDivisionError) :
             pass
