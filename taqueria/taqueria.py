@@ -13,4 +13,7 @@ food_items ={
 
 }
 
-user_items = input("Item: ")
+try:
+    user_items = input("Item: ")
+except EOFError:
+
