@@ -17,7 +17,7 @@ while True:
     try:
         user_items = input("Item: ").title()
         if user_items in food_items :
-            print(food_items)
+            a = get()
 
     except EOFError:
         print("\n")
