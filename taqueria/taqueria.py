@@ -15,8 +15,10 @@ food_items ={
 
 while True:
     try:
-        user_items = input("Item: ")
-        
+        user_items = input("Item: ").title()
+        if user_items in food_items :
+            print(food_items)
+
     except EOFError:
         print("\n")
     except KeyError:
