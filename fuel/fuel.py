@@ -8,7 +8,7 @@ def get_result():
 
     while True:
         try:
-            x = int(input("Fraction "))
+            x = input("Fraction ")
 
         except (ValueError,ZeroDivisionError) :
             pass
