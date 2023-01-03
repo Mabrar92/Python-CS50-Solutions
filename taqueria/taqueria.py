@@ -22,6 +22,7 @@ while True:
     except EOFError:
         print("\n")
         print(f"Total: {a}$",)
+        break
     except KeyError:
         pass
 
