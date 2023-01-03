@@ -16,7 +16,7 @@ def get_result():
 
             if result > 1 :
                     continue
-            elif:
+            else:
                 return round(num/denum*100)
 
         except (ValueError, ZeroDivisionError) :
