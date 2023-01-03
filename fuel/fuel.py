@@ -22,6 +22,7 @@ def get_result():
             pass
 
         else:
+            break
 
 
 
