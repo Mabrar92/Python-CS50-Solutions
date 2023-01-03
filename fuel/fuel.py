@@ -2,9 +2,9 @@
 def main():
     x = get_result()
 
-    if  100 >= x > 99:
+    if  100 >= x >= 99:
         print("F")
-    elif x == 0:
+    elif  1 >= x >= 0:
         print("E")
     else:
         print(f"{x}%")
