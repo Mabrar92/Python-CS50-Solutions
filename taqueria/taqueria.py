@@ -17,11 +17,11 @@ while True:
     try:
         user_items = input("Item: ").title()
         if user_items in food_items :
-            a+= round(food_items[user_items],3)
+            a+= round(food_items[user_items],2)
 
     except EOFError:
         print("\n")
-        print(f"Total: {a}$",)
+        print(f"Total: {a} $")
         break
     except KeyError:
         pass
