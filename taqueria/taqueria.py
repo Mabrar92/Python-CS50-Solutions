@@ -19,7 +19,7 @@ while True:
     try:
         user_items = input("Item: ").title()
         if user_items in food_items :
-            a+= food_items[user_items]
+            a+= food_items.get(user_items)
 
     except EOFError:
 
