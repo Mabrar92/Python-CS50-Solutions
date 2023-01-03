@@ -15,14 +15,15 @@ food_items ={
 
 a=0
 while True:
+
     try:
         user_items = input("Item: ").title()
-
+        if user_items in food_items :
+            a+= food_items[user_items]
 
     except EOFError:
-         if user_items in food_items :
-            a+= food_items[user_items]
-            print(f"Total: ${a:.2f}")
+
+            print(f"Total: ${a}")
             print("\n")
             break
 
