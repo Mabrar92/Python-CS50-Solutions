@@ -22,10 +22,11 @@ while True:
 
 
     except EOFError:
+        print(f"Total: ${a:.2f}")
         print("\n")
+        break
     except KeyError:
         pass
-    else:
-        print(f"Total: ${a:.2f}")
+
 
 
