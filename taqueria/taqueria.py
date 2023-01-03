@@ -16,9 +16,11 @@ food_items ={
 while True:
     try:
         user_items = input("Item: ")
+        
     except EOFError:
         print("\n")
     except KeyError:
         pass
+
 
 
