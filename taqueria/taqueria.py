@@ -13,7 +13,12 @@ food_items ={
 
 }
 
-try:
-    user_items = input("Item: ")
-except EOFError:
+while True:
+    try:
+        user_items = input("Item: ")
+    except EOFError:
+        print("\n")
+    except KeyError:
+        pass
+
 
