@@ -1,7 +1,13 @@
 
 def main():
     x = get_result()
-    print(f"{x}%")
+
+    if  100 >= x > 99:
+        print("F")
+    elif x == 0:
+        print("E")
+    else:
+        print(f"{x}%")
 
 
 def get_result():
@@ -21,7 +27,5 @@ def get_result():
 
         except (ValueError, ZeroDivisionError) :
             pass
-
-
 
 main()
