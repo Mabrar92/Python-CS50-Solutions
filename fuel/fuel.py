@@ -1,7 +1,7 @@
 
 def main():
     x = get_result()
-    print(x)
+    print(f"{x}%")
 
 
 def get_result():
@@ -12,11 +12,17 @@ def get_result():
             split_string = x.split("/")
             num =  int(split_string[0])
             denum = int(split_string[1])
+
+            if num > denum :
+                pass
+            elif num <= denum :
+                return num/denum*100
+
         except (ValueError,ZeroDivisionError) :
             pass
 
         else:
-            return split_string
+
 
 
 main()
