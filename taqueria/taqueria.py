@@ -20,7 +20,7 @@ while True:
             a+= round(food_items[user_items])
 
     except EOFError:
-        print("\n")
+        #print("\n")
         print(f"Total: ${a:.2f}")
         break
     except KeyError:
