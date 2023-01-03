@@ -13,3 +13,4 @@ food_items ={
 
 }
 
+user_items = input("Item: ")
