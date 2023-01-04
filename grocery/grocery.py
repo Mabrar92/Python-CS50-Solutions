@@ -24,6 +24,7 @@ while True:
 
             if count_item > 1:
                 print(f"{count_item}",item)
+                
                 for i in range(len(grocery_list)):
                     grocery_list.remove(item)
             else:
