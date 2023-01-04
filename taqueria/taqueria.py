@@ -13,22 +13,25 @@ def main():
         "Tortilla Salad": 8.00
     }
 
-    b,c = get_item(food_items)
+    b = get_item(food_items)
+
     print(f"\nTotal: ${b:.2f}")
 
 
 
 def get_item(food_items):
-    c = false
+    c = False
     a=0.00
     while True:
         try:
-            user_items = input("Item: ").title()
-            a+= food_items.get(user_items)
+            if c==False:
+                user_items = input("Item: ").title()
+            if user_items in food_items:
+                a+= food_items.get(user_items)
 
         except EOFError:
-               print(c= !)
-                return a,c
+                c=True
+                return a
 
         except KeyError:
             pass
