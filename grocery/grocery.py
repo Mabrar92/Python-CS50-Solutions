@@ -16,7 +16,7 @@ while True:
         #Get all the values and Sort Dict Values Alphabetically.
         grocery_list= list(a.values())
         grocery_list.sort()
-        print(grocery_list)
+        #print(grocery_list)
 
         #Output the values along with Count as prefix.
         for item in grocery_list:
