@@ -24,7 +24,8 @@ while True:
 
             if count_item > 1:
                 print(f"{count_item}",item)
-                grocery_list.remove(item,all)
+                for item in rang(len(grocery_list)):
+                    grocery_list.remove(item)
             else:
                 print(f"{count_item}",item.upper())
         break
