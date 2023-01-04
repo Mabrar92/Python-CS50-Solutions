@@ -17,9 +17,11 @@ while True:
         grocery_list= list(a.values())
         grocery_list.sort()
         print(grocery_list)
-        break
+
         #Output the values along with Count as prefix.
-        
+        for
+
+        break
 
     except KeyError:
         pass
