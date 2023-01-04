@@ -22,9 +22,11 @@ while True:
         for item in grocery_list:
             count_item = grocery_list.count(item)
 
-            if count_item > 1
+            if count_item > 1:
                 print(f"{count_item}",item)
-                
+                grocery_list.remove(item)
+            else:
+                print(f"{count_item}",item)
         break
 
     except KeyError:
