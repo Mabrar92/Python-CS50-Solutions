@@ -13,7 +13,7 @@ while True:
     except EOFError:
 
         #Sort Dict Values Alphabetically.
-        
+        list(a)
         #Output the values along with Count as prefix.
 
     except KeyError:
