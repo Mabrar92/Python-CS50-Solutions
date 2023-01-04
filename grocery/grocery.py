@@ -19,6 +19,7 @@ while True:
         print(grocery_list)
         break
         #Output the values along with Count as prefix.
+        
 
     except KeyError:
         pass
