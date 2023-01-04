@@ -8,7 +8,7 @@ while True:
         user_input= input()
         # Store each item in the dict on the go
         a[i] = user_input
-        print(a)
+       # print(a)
         i+=1
 
     except EOFError:
