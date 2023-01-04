@@ -20,7 +20,8 @@ while True:
 
         #Output the values along with Count as prefix.
         for item in grocery_list:
-            print(list.count(item),item)
+            print(item)
+            #print(list.count(item),item)
 
         break
 
