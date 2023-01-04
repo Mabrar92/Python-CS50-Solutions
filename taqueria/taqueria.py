@@ -1,6 +1,6 @@
 
 def main():
-    
+
     food_items ={
         "Baja Taco": 4.00,
         "Burrito": 7.50,
@@ -13,8 +13,7 @@ def main():
         "Tortilla Salad": 8.00
     }
 
-    user_items = input("Item: ").title()
-    b = get_item(food_items,user_items)
+    b = get_item(food_items)
     print(f"Total: ${b}")
 
 
@@ -23,9 +22,9 @@ def get_item(food_items):
 
     a=0.00
     while True:
-
         try:
-              a+= food_items.get(user_items)
+            user_items = input("Item: ").title()
+            a+= food_items.get(user_items)
 
         except EOFError:
                 return a
@@ -33,11 +32,5 @@ def get_item(food_items):
         except KeyError:
             pass
 
-        else:
 
-
-
-
-
-if __name__ = "__main()__":
-    main()
+main()
