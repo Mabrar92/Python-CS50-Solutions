@@ -20,7 +20,7 @@ while True:
 
         #Output the values along with Count as prefix.
         for grocery in grocery_list
-
+        
         break
 
     except KeyError:
