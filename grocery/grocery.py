@@ -21,10 +21,10 @@ while True:
         #Output the values along with Count as prefix.
         for item in grocery_list:
             count_item = grocery_list.count(item)
-            print(f"{count_item}",item)
 
             if count_item > 1
-
+                print(f"{count_item}",item)
+                
         break
 
     except KeyError:
