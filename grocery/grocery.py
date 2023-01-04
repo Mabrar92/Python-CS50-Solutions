@@ -19,7 +19,7 @@ while True:
         print(grocery_list)
 
         #Output the values along with Count as prefix.
-        for
+        for 
 
         break
 
