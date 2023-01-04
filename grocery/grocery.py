@@ -13,7 +13,8 @@ while True:
     except EOFError:
 
         #Sort Dict Values Alphabetically.
-        list(a)
+        grocery_list= list(a.values())
+
         #Output the values along with Count as prefix.
 
     except KeyError:
