@@ -1,18 +1,17 @@
 
 
 dict a={}
+while true:
+    try :
+        # Get the grocery list from the user
+        user_input= input()
+        # Store each item in the dict on the go
+        
+    except EOFError:
 
-try :
-    # Get the grocery list from the user
-    user_input= input()
+        #Sort Dict Values Alphabetically.
 
-    # Store each item in the dict on the go
+        #Output the values along with Count as prefix.
 
-except EOFError:
-    
-    #Sort Dict Values Alphabetically.
-
-    #Output the values along with Count as prefix.
-
-except KeyError:
-    pass
+    except KeyError:
+        pass
