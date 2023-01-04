@@ -18,7 +18,6 @@ while True:
 
     try:
         user_items = input("Item: ").title()
-        a+= food_items.get(user_items)
 
 
     except EOFError:
@@ -30,5 +29,6 @@ while True:
     except KeyError:
         pass
 
+    else:
 
-
+         a+= food_items.get(user_items)
