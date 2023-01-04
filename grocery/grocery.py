@@ -12,8 +12,9 @@ while True:
 
     except EOFError:
 
-        #Sort Dict Values Alphabetically.
-        grocery_list= list(a.values())
+        #Get all the values and Sort Dict Values Alphabetically.
+        grocery_list= list(a.values()).sort()
+        print(grocery_list)
 
         #Output the values along with Count as prefix.
 
