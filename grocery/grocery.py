@@ -26,7 +26,7 @@ while True:
                 print(f"{count_item}",item)
                 grocery_list.remove(item)
             else:
-                print(f"{count_item}",item)
+                print(f"{count_item}",item.upper())
         break
 
     except KeyError:
