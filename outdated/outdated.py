@@ -52,6 +52,7 @@ def main():
 
 
 def numeric_date(user_date):
+    
         data_mdy = user_date.split("/")
         months = int(data_mdy[0])
         day = int(data_mdy[1])
