@@ -40,7 +40,7 @@ while True:
     a = user_date.split()
 
     for chr in a:
-        if chr == ("/"):
+        if "/" in chr:
             is_numeric_date = True
 
 
