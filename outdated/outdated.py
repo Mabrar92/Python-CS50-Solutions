@@ -62,6 +62,7 @@ def numeric_date(user_date):
         return months,day,year,false_flag
 
 def alpha_date(user_date):
+    
     try:
         data_mdy = user_date.split(",")
 
@@ -75,12 +76,11 @@ def alpha_date(user_date):
         #for months in range(len(months))
         month = months_list.index(months.title())+1
         false_flag = False
-        
+
         return month,day,year,false_flag
 
     except ValueError:
         false_flag = True
-        return month,day,year,false_flag
 
 main()
 
