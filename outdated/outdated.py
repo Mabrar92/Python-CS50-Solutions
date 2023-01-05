@@ -49,7 +49,7 @@ day = int(data_mdy[1])
 year = int(data_mdy[2])
 
 if day <= 31 and months <= 12:
-    print(f"{year}-{months}-{day}")
+    print(f"{year}-{months:02}-{day:02}")
 
 
 # if input has string go this way
