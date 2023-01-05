@@ -54,12 +54,18 @@ def main():
 def numeric_date(user_date):
 
         data_mdy = user_date.split("/")
+
         months = int(data_mdy[0])
         day = int(data_mdy[1])
         year = int(data_mdy[2])
 
-
-        return months,day,year
+        if months.isnumeric() and day.isnumeric() and year.isnumeric() :
+            return months,day,year
+        else:
+            day = 32
+            month = 13
+            year = 1900
+            return months,day,year
 
 def alpha_date(user_date):
 
