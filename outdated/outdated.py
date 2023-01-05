@@ -71,8 +71,10 @@ def alpha_date(user_date):
         data_md = data_mdy[0].split(" ")
         months = data_md[0]
 
-        if day.isnumeric():
+
+        if data_md[1].isnumeric():
             day = int(data_md[1])
+
         else:
             day = 32
             month = 13
