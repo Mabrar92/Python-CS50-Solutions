@@ -70,11 +70,11 @@ def alpha_date(user_date):
 
         day = int(data_md[1])
 
-        for months in range(len(months))
-            if
+        #for months in range(len(months))
+        month = months_list.index(months.title())
 
 
-        return months,day,year
+        return month,day,year
 
 main()
 
