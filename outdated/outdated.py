@@ -69,8 +69,7 @@ def alpha_date(user_date):
 
         months = data_md[0]
 
-
-        day = int(data_md[0])
+        day = int(data_md[1])
 
 
         return months,day,year
