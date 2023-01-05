@@ -12,7 +12,7 @@ nd days with two digits, “padding” each with leading zeroes as needed.
 
 """
 
-Months = [
+months_list = [
     "January",
     "February",
     "March",
@@ -66,10 +66,12 @@ def alpha_date(user_date):
         year =int(data_mdy[1])
 
         data_md = data_mdy[0].split(" ")
-
         months = data_md[0]
 
         day = int(data_md[1])
+
+        for months in range(len(months))
+            if
 
 
         return months,day,year
