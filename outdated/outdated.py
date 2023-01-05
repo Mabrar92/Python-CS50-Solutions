@@ -63,7 +63,7 @@ def numeric_date(user_date):
             return months,day,year
         else:
             day = 32
-            month = 13
+            months = 13
             year = 1900
             return months,day,year
 
