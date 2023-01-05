@@ -37,10 +37,8 @@ while True:
 
     is_numeric_date = False
     ##split the input into month-day-year
-    a = user_date.split()
 
-    for chr in a:
-        if "/" in chr:
+    if "/" in user_date:
             is_numeric_date = True
 
 
