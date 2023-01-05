@@ -39,8 +39,8 @@ def main():
         ##split the input into month-day-year
         if "/" in user_date:
             months,day,year = numeric_date(user_date)
-        else
-            alpha_date(user_date)
+        else:
+             months,day,year= alpha_date(user_date)
 
 
         if day <= 31 and months <= 12:
@@ -59,9 +59,11 @@ def numeric_date(user_date):
 
         return months,day,year
 
-def numeric_date(user_date):
-        data_mdy = user_date.split(",").s
-        months = int(data_mdy[0])
+def alpha_date(user_date):
+
+        data_mdy = user_date.split(",").strip()
+
+        months = data_mdy[0]
         day = int(data_mdy[1])
         year = int(data_mdy[2])
 
