@@ -66,11 +66,15 @@ def alpha_date(user_date):
     try:
         data_mdy = user_date.split(",")
 
-        year =int(data_mdy[1])
-
-        data_md = data_mdy[0].split(" ")
-        months = data_md[0]
-
+        if len(data_mdy) < 2:
+            day = 32
+            month = 13
+            year = 1900
+            return month,day,year
+        else:
+            year =int(data_mdy[1])
+            data_md = data_mdy[0].split(" ")
+            months = data_md[0]
 
         if data_md[1].isnumeric():
             day = int(data_md[1])
