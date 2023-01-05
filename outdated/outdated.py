@@ -61,14 +61,17 @@ def numeric_date(user_date):
 
 def alpha_date(user_date):
 
-        data_mdy = user_date.split(" ")
+        data_mdy = user_date.split(",")
 
-        months = data_mdy[0]
+        year =int(data_mdy[1])
 
-        data_mdy1 = data_mdy[1].split(",")
+        data_md = data_mdy[0].split(" ")
 
-        day = int(data_mdy1[0])
-        year =int(data_mdy1[1])
+        months = data_md[0]
+
+
+        day = int(data_md[0])
+
 
         return months,day,year
 
