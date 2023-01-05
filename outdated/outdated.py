@@ -34,7 +34,7 @@ months_list = [
 def main():
 
     while True:
-        user_date = (input("Date: "))
+        user_date = (input("Date: ")).strip()
 
         ##split the input into month-day-year
         if "/" in user_date:
