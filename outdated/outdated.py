@@ -76,7 +76,7 @@ def alpha_date(user_date):
         return month,day,year
 
     except ValueError:
-        print("Valueeeeeeeeeeeeeeee")
+        return 
 
 main()
 
