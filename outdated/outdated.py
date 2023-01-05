@@ -38,12 +38,12 @@ def main():
 
         ##split the input into month-day-year
         if "/" in user_date:
-            months,day,year = numeric_date(user_date)
+            months,day,year,flag = numeric_date(user_date)
         else:
-             months,day,year= alpha_date(user_date)
+             months,day,year,flag = alpha_date(user_date)
 
 
-        if day <= 31 and months <= 12:
+        if day <= 31 and months <= 12 and flag == False:
                 print(f"{year}-{months:02}-{day:02}")
                 break
         else:
@@ -57,8 +57,9 @@ def numeric_date(user_date):
         months = int(data_mdy[0])
         day = int(data_mdy[1])
         year = int(data_mdy[2])
+        false_flag = False
 
-        return months,day,year
+        return months,day,year,false_flag
 
 def alpha_date(user_date):
     try:
@@ -73,10 +74,12 @@ def alpha_date(user_date):
 
         #for months in range(len(months))
         month = months_list.index(months.title())+1
-        return month,day,year
+        false_flag = False
+        return month,day,year,false_flag
 
     except ValueError:
-        return 
+        false_flag = True
+        return month,day,year,false_flag
 
 main()
 
