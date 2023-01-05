@@ -23,7 +23,7 @@
     8080,
     8082
   ],
-  "image": "ghcr.io/cs50/codespace:303d6c02a12c35efe5040f102f6054b4e432cb11",
+  "image": "ghcr.io/cs50/codespace:4b1dccff0873c0876566ef9fb0c7373aa654da39",
   "postCreateCommand": "/opt/cs50/bin/postCreateCommand",
   "settings": {
     "C_Cpp.autocomplete": "Disabled",
@@ -116,6 +116,7 @@
       "workbench.action.toggleSidebarVisibility"
     ],
     "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.gpuAcceleration": "off",
     "terminal.integrated.persistentSessionReviveProcess": "never",
     "terminal.integrated.profiles.linux": {
       "JavaScript Debug Terminal": null,
