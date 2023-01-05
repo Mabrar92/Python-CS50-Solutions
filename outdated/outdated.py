@@ -75,6 +75,7 @@ def alpha_date(user_date):
         #for months in range(len(months))
         month = months_list.index(months.title())+1
         false_flag = False
+        
         return month,day,year,false_flag
 
     except ValueError:
