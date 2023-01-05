@@ -57,9 +57,9 @@ def numeric_date(user_date):
         months = int(data_mdy[0])
         day = int(data_mdy[1])
         year = int(data_mdy[2])
-        false_flag = False
 
-        return months,day,year,false_flag
+
+        return months,day,year
 
 def alpha_date(user_date):
 
