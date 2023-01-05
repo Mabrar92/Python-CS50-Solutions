@@ -44,6 +44,12 @@ for chr in user_date.split():
 if is_numeric_date:
     data_mdy= user_date.split("/")
 
+months = data_mdy[0]
+day = data_mdy[1]
+year = data_mdy[2]
+
+
+
 
 # if input has string go this way
 
