@@ -37,11 +37,13 @@ while True:
 
     is_numeric_date = False
     ##split the input into month-day-year
+    
     for chr in user_date.split():
         if chr == ("/"):
             is_numeric_date = True
             break
 
+    print(is_numeric_date)
     if is_numeric_date:
         data_mdy = user_date.split("/")
 
