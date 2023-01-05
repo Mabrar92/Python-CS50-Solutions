@@ -33,7 +33,7 @@ Months = [
 #Take input from user
 while True:
     user_date = (input("Date: "))
-    data_mdy = None
+    data_mdy = []
 
     is_numeric_date = False
     ##split the input into month-day-year
