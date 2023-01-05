@@ -31,27 +31,28 @@ Months = [
 #try:
 
 #Take input from user
-user_date = (input("Date: "))
+while True:
+    user_date = (input("Date: "))
+    data_mdy = None
 
+    is_numeric_date = False
+    ##split the input into month-day-year
+    for chr in user_date.split():
+        if chr == ("/"):
+            is_numeric_date = True
+            break
 
-is_numeric_date = False
-##split the input into month-day-year
-for chr in user_date.split():
-    if chr == ("/"):
-        is_numeric_date = True
-        break
+    if is_numeric_date:
+        data_mdy = user_date.split("/")
 
-#if is_numeric_date:
-data_mdy = user_date.split("/")
+    months = int(data_mdy[0])
+    day = int(data_mdy[1])
+    year = int(data_mdy[2])
 
-months = int(data_mdy[0])
-day = int(data_mdy[1])
-year = int(data_mdy[2])
-
-if day <= 31 and months <= 12:
-    print(f"{year}-{months:02}-{day:02}")
-else
-    continue
+    if day <= 31 and months <= 12:
+        print(f"{year}-{months:02}-{day:02}")
+    else:
+        continue
 
 
 # if input has string go this way
