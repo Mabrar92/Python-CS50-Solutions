@@ -23,7 +23,7 @@
     8080,
     8082
   ],
-  "image": "ghcr.io/cs50/codespace:4b1dccff0873c0876566ef9fb0c7373aa654da39",
+  "image": "ghcr.io/cs50/codespace:7a4093ea58e0f5e3f4b3e34cc7e52c29f841a09e",
   "postCreateCommand": "/opt/cs50/bin/postCreateCommand",
   "settings": {
     "C_Cpp.autocomplete": "Disabled",
