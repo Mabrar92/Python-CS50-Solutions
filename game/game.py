@@ -1,13 +1,12 @@
 import random
 
 user_level = int(input("Level: "))
-
+random.randint(0,user_level)
 while True:
     try:
         if user_level < 0:
             continue
         else:
-            random.randint(0,user_level)
             user_guess= input("Guess: ")
 
             if user_guess > 0 :
