@@ -10,6 +10,7 @@ while True:
         user_input = input("Name: ")
         a[i] = user_input
         i+=1
+        print(a)
         name_count = len(a)
         name_list = list(a.values())
 
@@ -17,12 +18,12 @@ while True:
 
     except EOFError:
         for name in a:
-            mylist = p.join(list(a[name]))
+            print(list(a[name]))
            # print()
             #for i in range(name_count):
                 # i names , i-1 commas
             #print(mylist)
 
-            print("\n Adieu, adieu, to",mylist)
+            #print("\n Adieu, adieu, to",p.join(list(a[name])))
 
         break
