@@ -18,9 +18,9 @@ if len(sys.argv) < 2 :
     figlet.setFont(font=fonts[ran])
     print(figlet.renderText(user_input))
 
-elif len(sys.argv) > 2 and (sys.argv[2] == "-f" or sys.argv[2] == "-font") :
-    if sys.argv[3] in fonts:
-        figlet.setFont(font=fonts[sys.argv[3]])
+elif len(sys.argv) > 2 and (sys.argv[1] == "-f" or sys.argv[2] == "-font") :
+    if sys.argv[2] in fonts:
+        figlet.setFont(font=fonts[sys.argv[2]])
         print(figlet.renderText(user_input))
     else :
         sys.exit()
