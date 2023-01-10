@@ -13,7 +13,7 @@ while True:
 
 
     except EOFError:
-        for _ in range(name_count):
-            #print("\n Adieu, adieu, to",list(a.values()))
-            print(_)
+        for i in range(name_count):
+            print("\n Adieu, adieu, to",list(a.values()))
+           
         break
