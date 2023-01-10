@@ -13,7 +13,7 @@ user_input = input("input:")
 fonts= figlet.getFonts()
 
 
-if len(sys.argv) < 2 :
+if len(sys.argv) == 1 :
     ran = random.randint(0,len(fonts))
     figlet.setFont(font=fonts[ran])
     print(figlet.renderText(user_input))
