@@ -16,9 +16,9 @@ while True:
 
 
     except EOFError:
-        for i in name_list:
-            mylist = p.join(name_list)
-            
+        for name in a:
+            mylist = p.join(list(a[name]))
+
             #for i in range(name_count):
                 # i names , i-1 commas
             print(mylist)
