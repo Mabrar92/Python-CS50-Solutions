@@ -10,10 +10,12 @@ while True:
         a[i] = user_input
         i+=1
         name_count = len(a)
+        name_list = list(a.values())
+        
 
 
     except EOFError:
         for i in range(name_count):
-            print("\n Adieu, adieu, to",list(a.values()))
-           
+            print("\n Adieu, adieu, to",))
+
         break
