@@ -10,12 +10,19 @@ import random
 
 figlet = Figlet()
 user_input = input("input:")
+fonts= figlet.getFonts()
+
 
 if len(sys.argv) < 2 :
+    ran = random.randint(0,len(fonts))
+    figlet.setFont(font=fonts[ran])
+    print(figlet.renderText(user_input))
 
-    ran = random.randint(0,len(figlet.getFonts()))
-    figlet.setFont(font=f)
-    print(ran)
+elif len(sys.argv) > 2 :
+    figlet.setFont(font=fonts[sys.argv[3]])
+    print(figlet.renderText(user_input))
+
+
 
 
 
@@ -27,4 +34,4 @@ print(len(figlet.getFonts()))
 #figlet.setFont(font=f)
 
 # render the final output
-#print(figlet.renderText(s))
+print(figlet.renderText(s))
