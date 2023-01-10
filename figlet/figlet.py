@@ -2,7 +2,7 @@
 
 
 import sys
-from pyfiglet import figlet
+from pyfiglet import Figlet
 
 user_input = input("input:")
 
