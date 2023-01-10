@@ -7,7 +7,7 @@ while True:
             user_level = int(input("Level: "))
             level=random.randint(0,user_level)
             a=False
-        if user_level < 0:
+        if user_level < 2:
             a=True
             continue
         else:
