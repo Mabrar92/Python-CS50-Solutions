@@ -9,6 +9,6 @@ while True:
 
 
     except EOFError:
-        print(")
+        print(\n")
         print("Adieu, adieu, to",user_input)
         break
