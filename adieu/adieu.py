@@ -1,7 +1,7 @@
 # adieu, adieu
 
 
-a=[]
+a={}
 i=0
 
 while True:
@@ -11,5 +11,5 @@ while True:
         i+=1
 
     except EOFError:
-        print("\n Adieu, adieu, to",user_input)
+        print("\n Adieu, adieu, to",list(a.values()))
         break
