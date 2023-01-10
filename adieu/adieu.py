@@ -6,9 +6,9 @@
 while True:
     try:
         user_input = input("Name: ")
+        user_input+=user_input
 
 
     except EOFError:
-        print(\n")
-        print("Adieu, adieu, to",user_input)
+        print("\n Adieu, adieu, to",user_input)
         break
