@@ -18,7 +18,7 @@ while True:
 
     except EOFError:
         for name in a:
-            print(list(a[name]))
+            list_name = a[name]
            # print()
             #for i in range(name_count):
                 # i names , i-1 commas
