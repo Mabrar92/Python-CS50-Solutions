@@ -16,10 +16,11 @@ while True:
 
 
     except EOFError:
-        for i in range(name_count):
+        mylist = p.join(name_list)
+        #for i in range(name_count):
             # i names , i-1 commas
-           print(name_list.pop())
-           print(name_list)
+        print(mylist)
+
            # print("\n Adieu, adieu, to",))
 
         break
