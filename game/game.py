@@ -2,11 +2,10 @@ import random
 
 
 try:
-
-    user_level = int(input("Level: "))
-    level=random.randint(0,user_level)
-
     while True:
+        user_level = int(input("Level: "))
+        level=random.randint(0,user_level)
+
         if user_level < 0:
             continue
         else:
