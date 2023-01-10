@@ -20,22 +20,11 @@ if len(sys.argv) < 2 :
 
 elif len(sys.argv) > 2 and (sys.argv[1] == "-f" or sys.argv[2] == "-font") :
     if sys.argv[2] in fonts:
-        figlet.setFont(font=fonts[sys.argv[2]])
+        figlet.setFont(font=sys.argv[2])
         print(figlet.renderText(user_input))
     else :
-        sys.exit()
+        sys.exit("Invalid Usage")
 
 else :
-    sys.exit()
-
-
-
-#for list of available fonts
-
-
-
-#f is the font name as str
-#figlet.setFont(font=f)
-
-# render the final output
+    sys.exit("Inavlid Usage")
 
