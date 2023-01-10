@@ -7,17 +7,21 @@ import random
 
 
 
-user_input = input("input:")
-
-if len(sys.argv) > 1 :
-    figlet.setFont(font=f)
-    ran = random.rand
 
 figlet = Figlet()
+user_input = input("input:")
+
+if len(sys.argv) < 2 :
+
+    ran = random.randint(0,len(figlet.getFonts()))
+    figlet.setFont(font=f)
+    print(ran)
+
+
 
 #for list of available fonts
 
-figlet.getFonts()
+print(len(figlet.getFonts()))
 
 #f is the font name as str
 #figlet.setFont(font=f)
