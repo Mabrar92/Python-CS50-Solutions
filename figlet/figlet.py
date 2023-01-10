@@ -32,10 +32,10 @@ else :
 
 #for list of available fonts
 
-print(len(figlet.getFonts()))
+
 
 #f is the font name as str
 #figlet.setFont(font=f)
 
 # render the final output
-print(figlet.renderText(s))
+
