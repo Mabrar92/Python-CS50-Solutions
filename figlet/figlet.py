@@ -4,8 +4,10 @@
 import sys
 from pyfiglet import figlet
 
+user_input = input("input:")
 
-
+if len(sys.argv) > 1 :
+    
 
 
 figlet = Figlet()
