@@ -1,6 +1,7 @@
 # adieu, adieu
+import inflect
 
-
+p=inflect.engine()
 a={}
 i=0
 
