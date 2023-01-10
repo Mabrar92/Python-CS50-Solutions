@@ -17,8 +17,8 @@ while True:
     except EOFError:
         for i in range(name_count):
             # i names , i-1 commas
-           print(name_list.pop())
-           print(name_list.pop())
+           print(name_list.pop(1))
+           print(name_list)
            # print("\n Adieu, adieu, to",))
 
         break
