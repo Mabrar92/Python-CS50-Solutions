@@ -9,6 +9,7 @@ try:
 
     #print(json.dumps(r, indent=2))
     for items in r["bpi"].values():
-        print(items['rate_float'])
+        if items['code']=='USD':
+            print(items['rate_float'])
 except requests.RequestException:
     ...
