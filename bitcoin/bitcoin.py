@@ -8,7 +8,7 @@ try:
     r=response.json()
 
     #print(json.dumps(r, indent=2))
-    for items in r["bpi"]:
-        print(items["USD"].values())
+    for items in r["bpi"].values():
+        print(items['rate_float'])
 except requests.RequestException:
     ...
