@@ -13,7 +13,7 @@ try:
             r=response.json()
             for items in r["bpi"].values():
                 if items['code']=='USD':
-                    print(items['rate_float'])
+                    print(f"{sys.argv[1] * items['rate_float']:,.4f}")
 
         else:
             sys.exit("Command Line Argument is not a number")
