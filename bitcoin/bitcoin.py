@@ -14,7 +14,7 @@ try:
                 for items in r["bpi"].values():
                     if items['code']=='USD':
                         a = float(sys.argv[1]) * items['rate_float']
-                        print(f"$ {a:,.4f}")
+                        print(f"${a:,.4f}")
 
             else:
                 sys.exit("Command Line Argument is not a number")
