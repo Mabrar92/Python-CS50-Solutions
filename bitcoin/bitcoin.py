@@ -7,7 +7,7 @@ import sys
 try:
     if len(sys.argv) < 2:
         sys.exit("Missing Command Line Argument")
-    elif len(sys.argv == 2):
+    elif len(sys.argv) == 2:
         if sys.argv[1] is str :
             sys.exit("Command Line Argument is not a number")
         else:
