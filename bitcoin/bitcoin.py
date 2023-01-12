@@ -13,7 +13,7 @@ try:
             r=response.json()
             for items in r["bpi"].values():
                 if items['code']=='USD':
-                    a = sys.argv[1] * items['rate_float']
+                    a = float(sys.argv[1]) * items['rate_float']
                     print(f"$ {a:,.4f}")
 
         else:
